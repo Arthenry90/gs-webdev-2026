@@ -2,15 +2,18 @@
 import { Link, Route, Routes, useParams } from 'react-router-dom'
 import NavBar from './components/NavBar'
 import Home from './pages/Home'
+import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="min-h-screen">
+    <div className="flex flex-col min-h-screen">
       <NavBar />
-
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
+      <main className="flex-grow">
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </main>
+      <Footer />
     </div>
   )
 }
