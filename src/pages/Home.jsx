@@ -40,7 +40,7 @@ export default function Home() {
               OrbitBird Rescue System
             </h2>
             <p className="text-lg md:text-xl text-slate-300 max-w-5xl mx-auto leading-relaxed font-light">
-              O Space Rescue System consiste em uma plataforma inteligente de monitoramento emergencial desenvolvida para auxiliar operações de localização e resgate em áreas remotas.
+              O ObrbitBird Rescue System consiste em uma plataforma inteligente de monitoramento emergencial desenvolvida para auxiliar operações de localização e resgate em áreas remotas.
             </p>
           </div>
         </section>
@@ -110,7 +110,7 @@ export default function Home() {
             <h2 className="text-xl md:text-3xl font-semibold text-white mb-3">
               Objetivos de Desenvolvimento Sustentável (ODS)
             </h2>
-            <p className="text-slate-300 max-w-4xl mx-auto mb-12 md:text-xl font-light ">O Space Rescue System se engloba nos seguintes objetivos estabelecidos pela ONU:</p>
+            <p className="text-slate-300 max-w-4xl mx-auto mb-12 md:text-xl font-light ">O Orbit Rescue System se engloba nos seguintes objetivos estabelecidos pela ONU:</p>
 
             <div className="flex flex-col gap-8 max-w-4xl mx-auto items-center">  
               <div className="w-full flex justify-between gap-4">
