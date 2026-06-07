@@ -1,8 +1,10 @@
 // src/App.jsx
 import { Link, Route, Routes, useParams } from 'react-router-dom'
 import NavBar from './components/NavBar'
-import Home from './pages/Home'
 import Footer from './components/Footer'
+
+import Home from './pages/Home'
+import Problema from './pages/Problema'
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
       <main className="flex-grow">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/problema" element={<Problema />} />
         </Routes>
       </main>
       <Footer />

@@ -2,7 +2,7 @@ import { FaInstagram, FaTiktok, FaTwitter, FaGithub } from 'react-icons/fa';
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-[#070D1F] text-slate-400 py-6 px-6 border-t border-slate-800/40">
+    <footer className="w-full bg-[#0B132B] text-slate-400 py-6 px-6 border-t border-slate-800/40">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-xs">
         
         {/* Lado Esquerdo: Identificação e Copyright integrados */}
