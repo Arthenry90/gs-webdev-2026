@@ -7,7 +7,7 @@ export default function NavBar() {
         
         <div className="flex items-center">
           <Link to="/" className="font-extrabold tracking-wider text-base md:text-lg text-white hover:text-[#00B4D8] transition-colors uppercase">
-            🛰️ Space Rescue
+            🛰️ OrbitBird Rescue
           </Link>
         </div>
 
@@ -25,15 +25,6 @@ export default function NavBar() {
             Benefícios
           </Link>
         </div>
-        <div className="flex items-center">
-          <Link 
-            to="/dashboard" 
-            className="bg-[#1C2541] hover:bg-[#1C2541]/80 text-[#EDF2F4] border border-slate-700/50 px-5 py-2 rounded-full text-xs font-semibold tracking-wider uppercase transition-all duration-300 hover:scale-105 shadow-md"
-          >
-            Dashboard
-          </Link>
-        </div>
-
       </div>
     </nav>
   );

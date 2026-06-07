@@ -5,8 +5,7 @@ export default function Problema() {
   return (
     <div className="w-full min-h-screen text-[#0B132B] pt-8">
       <div className="max-w-6xl mx-auto px-6 py-12 space-y-24">
-        
-        {/* ================= BLOCO 1: O DESAFIO (TEXTO ESQUERDA / IMG DIREITA) ================= */}
+        {/* Seção Superior */}
         <section className="flex flex-col md:flex-row items-start gap-12 md:gap-16">
           
           {/* Caixa de Texto/Conteúdo */}
@@ -24,14 +23,13 @@ export default function Problema() {
             </div>
           </div>
 
-          {/* Caixa da Imagem de Evidência */}
+          {/* imagem da seção superior */}
           <div className="w-full md:w-1/2 md:mt-10">
             <a 
             href="https://www.terra.com.br/planeta/homem-e-resgatado-apos-ficar-12-dias-perdido-na-floresta-amazonica%2Cb83b90ecb872e889142f77dc478be63f48ynpj6w.html?utm_source=chatgpt.com"
             target='_blank'
             rel='noopener noreferrer'
             className="group relative block w-full h-[350px] md:h-[400px] rounded-3xl overflow-hidden border border-slate-800 shadow-xl bg-[#1C2541]/20">
-            
             <img 
               src="/Resgate_floresta.webp" 
               alt="Resgate de um homem na Floresta Amazonica" 
@@ -47,18 +45,13 @@ export default function Problema() {
             <p className="text-xs text-gray-700 mt-3 font-light italic pl-2">
               *Resgate de um homem na Floresta Amazonica após 12 dias.
             </p>
-            
           </div>
-
         </section>
 
-        {/* ================= BLOCO 2: A REALIDADE OPERACIONAL (IMG ESQUERDA / 2 TEXTOS DIREITA) ================= */}
+        {/* Seção inferior */}
         <section className="flex flex-col md:flex-row-reverse items-center gap-12 md:gap-16">
-          
-          {/* Caixas de Texto/Conteúdo (Duas divisões verticais na direita) */}
           <div className="w-full md:w-1/2 space-y-6">
-            
-            {/* Bloco de Texto Superior */}
+            {/* Card Superior */}
             <div className="bg-[#1C2541] border border-slate-800 p-6 rounded-2xl space-y-3">
               <h3 className="text-base font-bold text-white uppercase tracking-wider text-[#00B4D8]">
                 Logística Sob Pressão
@@ -67,8 +60,7 @@ export default function Problema() {
                 Equipes de socorro em solo frequentemente operam às cegas devido ao bloqueio visual provocado por copas de árvores fechadas. A falta de coordenadas geográficas precisas força os agentes a cobrirem perímetros massivos de forma ineficiente.
               </p>
             </div>
-
-            {/* Bloco de Texto Inferior */}
+            {/* Card Inferior */}
             <div className="bg-[#1C2541] border border-slate-800 p-6 rounded-2xl space-y-3">
               <h3 className="text-base font-bold text-white uppercase tracking-wider text-[#00B4D8]">
                 A Solução pelo Espaço
@@ -77,10 +69,8 @@ export default function Problema() {
                 O primeiro parágrafo da nossa proposta resolve esse gargalo: conectar a telemetria à computação de borda descentralizada. Ignorando as barreiras físicas locais, os alertas ganham uma rota aérea direta até os controladores, otimizando o envio de frotas e aeronaves de suporte.
               </p>
             </div>
-
           </div>
-
-          {/* Caixa da Imagem de Evidência */}
+          {/* Imagem da seção inferior */}
           <div className="w-full md:w-1/2">
             <div className="w-full h-[350px] md:h-[400px] rounded-3xl overflow-hidden border border-slate-800 shadow-xl bg-[#1C2541]/20">
               <img 

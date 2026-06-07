@@ -5,6 +5,7 @@ import Footer from './components/Footer'
 
 import Home from './pages/Home'
 import Problema from './pages/Problema'
+import Tecnologia from './pages/Tecnologia'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/problema" element={<Problema />} />
+          <Route path="/tecnologia" element={<Tecnologia />} />
         </Routes>
       </main>
       <Footer />

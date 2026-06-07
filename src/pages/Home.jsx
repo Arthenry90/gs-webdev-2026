@@ -37,7 +37,7 @@ export default function Home() {
         <section className="max-w-6xl mx-auto px-6 py-12">
           <div className="text-center space-y-6">
             <h2 className="text-5xl md:text-6xl font-extrabold text-[#FF5A00] tracking-tight uppercase">
-              Space Rescue System
+              OrbitBird Rescue System
             </h2>
             <p className="text-lg md:text-xl text-slate-300 max-w-5xl mx-auto leading-relaxed font-light">
               O Space Rescue System consiste em uma plataforma inteligente de monitoramento emergencial desenvolvida para auxiliar operações de localização e resgate em áreas remotas.
