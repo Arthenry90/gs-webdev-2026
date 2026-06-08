@@ -1,0 +1,50 @@
+[
+  {
+    "id": 0,
+    "nome": "Lora",
+    "tagline": "Coleta de Dados - Infraestrutura de Rádio e Longo Alcance",
+    "descricao": "LoRa (abreviação de Long Range) é uma tecnologia de rádio sem fio de longo alcance e baixíssimo consumo de energia, ideal para conectar dispositivos de Internet das Coisas (IoT).",
+    "descricaoSecundaria": "Esta tecnologia permite a comunicação de dados a longas distâncias (até 15 km em áreas rurais) sem depender de redes Wi-Fi, Bluetooth ou torres de telefonia celular.",
+    "imagem": "/Lora.png"
+  },
+  {
+    "id": 1,
+    "nome": "ESP32",
+    "tagline": "Coleta de Dados - Telemetria e Captura de Sinais em Campo",
+    "descricao": "O ESP32 sozinho operaria apenas com Wi-Fi e Bluetooth, o que seria inviável para o cenário de isolamento florestal. Por isso, a nossa arquitetura de borda utiliza o ESP32 acoplado a um módulo de rádio transceptor LoRa, instalado estrategicamente em torres fixas ou em coleiras de animais mapeados.",
+    "descricaoSecundaria": "Assim que intercepta o sinal de socorro, o microcontrolador processa os dados localmente, extrai as coordenadas geográficas brutas da antena e empacota essas informações em uma string JSON leve, processando e convertendo essa telemetria bruta para o protocolo MQTT.",
+    "imagem": "/ESP32.png"
+  },
+  {
+    "id": 2,
+    "nome": "Protocolo MQTT",
+    "tagline": "Tratamento de Dados - Mensageria Ultraleve e Compactação",
+    "descricao": "O MQTT (Message Queuing Telemetry Transport) é um protocolo de transmissão ultraleve e resiliente, projetado especificamente para cenários de IoT onde a largura de banda é limitada e a conexão pode ser instável. Em nossa esteira de processamento, ele atua na camada de transporte, garantindo que o pacote de dados gerado na borda viaje com segurança até a nuvem.",
+    "descricaoSecundaria" : "Em vez de sobrecarregar o sistema com requisições HTTP pesadas, o MQTT adota o modelo de publicação e assinatura (Publish/Subscribe). O ESP32 assume o papel de publicador, enviando a string JSON contendo o alerta de socorro e as coordenadas da vítima para um canal específico (Tópico) dentro de um Broker central, permitindo um tratamento de dados rápido, assíncrono e de baixíssimo consumo energético.",
+    "imagem": "/MQTT.png"
+  },
+  {
+    "id": 3,
+    "nome": "FIWARE Broker",
+    "tagline": "Análise de Dados - Contextualização e Consolidação em Nuvem",
+    "descricao": "O FIWARE Broker, atua como o cérebro central da nossa infraestrutura em nuvem, sendo o responsável direto pela análise e pelo tratamento estrutural de todas as informações. Ele recebe os pacotes HTTP traduzidos pelo IoT Agent e gerencia o contexto operacional em tempo real, mapeando o status de cada incidente de forma isolada e inteligente.",
+    "descricaoSecundaria": "Em vez de funcionar como um banco de dados estático, o ecossistema FIWARE utiliza o padrão universal de APIs NGSI para consolidar dados brutos de telemetria em entidades de contexto dinâmicas. Isso permite que o sistema saiba instantaneamente o estado atual da vítima e repasse essas informações estruturadas de forma assíncrona para as ferramentas de geolocalização.",
+    "imagem": "/Fiware.png"
+  },
+  {
+    "id": 4,
+    "nome": "Google Maps APIs",
+    "tagline": "Análise de Dados - Geoprocessamento e Roteamento Espacial",
+    "descricao": "A Google Maps Platform fornece o ecossistema de inteligência geográfica indispensável para a nossa camada de análise de dados. Através da integração combinada das APIs Maps JavaScript, Geocoding e Geolocation, o sistema deixa de ser um mapa estático para se transformar em um motor de geoprocessamento ativo, capaz de traduzir as coordenadas numéricas geradas na floresta pelo ESP32 em dados visuais inteligíveis.",
+    "descricaoSecundaria":"Na prática, a Geocoding API realiza o mapeamento reverso para converter a latitude e longitude brutas em referências geográficas reais e rotas de acesso próximas. Simultaneamente, a Geolocation API triangula a posição das viaturas e equipes de socorro em solo, enquanto a Maps JavaScript API renderiza o mapa tático dinâmico no front-end, plotando os marcadores de emergência e calculando instantaneamente qual recurso operacional está mais próximo do incidente para realizar o despacho.",
+    "imagem" : "Google_maps.png"
+  },
+  {
+    "id": 5,
+    "nome": "Dashboard Operacional",
+    "tagline": "Despacho de Socorro - Central de Comando e Monitoramento",
+    "descricao": "O Dashboard Operacional representa a camada final da nossa arquitetura de software, coroando a esteira de processamento no Despacho Operacional. Esta interface gráfica atua como a central de comando unificada para equipes de resgate locais e o corpo de bombeiros, consolidando informações complexas em uma tela intuitiva e de tomada de decisão rápida.",
+    "descricaoSecundaria":"Consumindo de forma assíncrona as atualizações em tempo real vindas do FIWARE Broker, o dashboard elimina a necessidade de atualizações manuais de página. Ele exibe alertas visuais imediatos assim que um sinal de SOS é detectado na borda, permitindo que os operadores humanos acompanhem o deslocamento dinâmico da vítima pelo mapa, acionem equipes de suporte adicionais — como helicópteros de resgate — e gerenciem o ciclo completo da missão de salvamento com máxima eficiência.",
+    "imagem": "/Dashboard.png"
+  }
+]
