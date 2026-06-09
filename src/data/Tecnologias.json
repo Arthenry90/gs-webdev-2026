@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "nome": "Lora",
+    "nome": "LoRa",
     "tagline": "Coleta de Dados - Infraestrutura de Rádio e Longo Alcance",
     "descricao": "LoRa (abreviação de Long Range) é uma tecnologia de rádio sem fio de longo alcance e baixíssimo consumo de energia, ideal para conectar dispositivos de Internet das Coisas (IoT).",
     "descricaoSecundaria": "Esta tecnologia permite a comunicação de dados a longas distâncias (até 15 km em áreas rurais) sem depender de redes Wi-Fi, Bluetooth ou torres de telefonia celular.",
@@ -37,7 +37,7 @@
     "tagline": "Análise de Dados - Geoprocessamento e Roteamento Espacial",
     "descricao": "A Google Maps Platform fornece o ecossistema de inteligência geográfica indispensável para a nossa camada de análise de dados. Através da integração combinada das APIs Maps JavaScript, Geocoding e Geolocation, o sistema deixa de ser um mapa estático para se transformar em um motor de geoprocessamento ativo, capaz de traduzir as coordenadas numéricas geradas na floresta pelo ESP32 em dados visuais inteligíveis.",
     "descricaoSecundaria":"Na prática, a Geocoding API realiza o mapeamento reverso para converter a latitude e longitude brutas em referências geográficas reais e rotas de acesso próximas. Simultaneamente, a Geolocation API triangula a posição das viaturas e equipes de socorro em solo, enquanto a Maps JavaScript API renderiza o mapa tático dinâmico no front-end, plotando os marcadores de emergência e calculando instantaneamente qual recurso operacional está mais próximo do incidente para realizar o despacho.",
-    "imagem" : "Google_maps.png"
+    "imagem" : "/Google_maps.png"
   },
   {
     "id": 5,

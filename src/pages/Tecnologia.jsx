@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { Link } from 'react-router-dom'
+import { useState } from 'react';
 import dadosJson from '../data/Tecnologias.json'
 
 export default function Tecnologia() {
@@ -41,7 +42,7 @@ export default function Tecnologia() {
                             if (!tech) return null;
 
                         return (
-                            <div key={tech.id} className="relative flex flex-col items-center">
+                            <div key={tech.id} className="font-turret font-black relative flex flex-col items-center">
                                 <div
                                 onClick={() => setIndexMeio(tech.id)}
                                 className={`flex flex-col items-center justify-center p-6 rounded-2xl border cursor-pointer transition-all duration-300 shadow-lg

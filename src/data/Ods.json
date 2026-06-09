@@ -1,0 +1,38 @@
+[
+  {
+    "id": 9,
+    "texto": "ODS 9 — Indústria, inovação e infraestrutura",
+    "descricao": "Busca construir infraestruturas resilientes, promover a industrialização inclusiva e sustentável e fomentar a inovação. No OrbitBird, aplicamos inovação via IoT e Edge Computing para criar uma infraestrutura de resgate independente e tecnológica.",
+    "hoverText": "hover:text-[#F36D25]",
+    "hoverBorder": "hover:border-[#F36D25]/60",
+    "hoverShadow": "hover:shadow-[#F36D25]/10",
+    "modalBg": "bg-[#F36D25]"
+  },
+  {
+    "id": 10,
+    "texto": "ODS 10 — Redução das desigualdades",
+    "descricao": "Visa reduzir a desigualdade dentro e entre os países. Nosso sistema democratiza o acesso ao socorro de alta tecnologia, garantindo que populações isoladas ou em áreas de risco recebam o mesmo nível de atendimento emergencial que grandes centros urbanos.",
+    "hoverText": "hover:text-[#DD1367]",
+    "hoverBorder": "hover:border-[#DD1367]/60",
+    "hoverShadow": "hover:shadow-[#DD1367]/10",
+    "modalBg": "bg-[#DD1367]"
+  },
+  {
+    "id": 11,
+    "texto": "ODS 11 — Cidades e comunidades sustentáveis",
+    "descricao": "Tornar as cidades e os assentamentos humanos inclusivos, seguros, resilientes e sustentáveis. OrbitBird contribui para a segurança de comunidades que vivem no entorno de áreas florestais ou de risco, integrando monitoramento inteligente à gestão de crises operacionais.",
+    "hoverText": "hover:text-[#FD9D24]",
+    "hoverBorder": "hover:border-[#FD9D24]/60",
+    "hoverShadow": "hover:shadow-[#FD9D24]/10",
+    "modalBg": "bg-[#FD9D24]"
+  },
+  {
+    "id": 13,
+    "texto": "ODS 13 — Ação contra a mudança global do clima",
+    "descricao": "Tomar medidas urgentes para combater a mudança climática e seus impactos. Nosso sistema fornece telemetria em tempo real que auxilia no monitoramento de áreas florestais densas, contribuindo para a preservação ambiental e mitigação de desastres naturais.",
+    "hoverText": "hover:text-[#3F7E44]",
+    "hoverBorder": "hover:border-[#3F7E44]/60",
+    "hoverShadow": "hover:shadow-[#3F7E44]/10",
+    "modalBg": "bg-[#3F7E44]"
+  }
+]

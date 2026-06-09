@@ -6,6 +6,8 @@ import Footer from './components/Footer'
 import Home from './pages/Home'
 import Problema from './pages/Problema'
 import Tecnologia from './pages/Tecnologia'
+import Objetivos from './pages/Objetivos'
+import Beneficios from './pages/Beneficios'
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/problema" element={<Problema />} />
           <Route path="/tecnologia" element={<Tecnologia />} />
+          <Route path="/objetivos" element={<Objetivos />} />
+          <Route path="/beneficios" element={<Beneficios />} />
         </Routes>
       </main>
       <Footer />

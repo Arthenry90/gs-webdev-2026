@@ -1,0 +1,23 @@
+{
+  "geral": "Desenvolver uma plataforma web integrada para monitoramento emergencial utilizando conceitos de telemetria, IoT e Edge Computing aplicados à Engenharia de Software.",
+  "especificicos": [
+    { "id": 1, "titulo": "Interface Moderna", "desc": "Desenvolver uma interface moderna, intuitiva e totalmente responsiva com Tailwind CSS." },
+    { "id": 2, "titulo": "Monitoramento Real-time", "desc": "Criar dashboards robustos para monitoramento de telemetria em tempo real." },
+    { "id": 3, "titulo": "Mensageria MQTT", "desc": "Implementar comunicação assíncrona utilizando o protocolo MQTT." },
+    { "id": 4, "titulo": "Integração IoT", "desc": "Integrar dispositivos e microcontroladores ESP32 diretamente ao ecossistema." },
+    { "id": 5, "titulo": "Edge Computing", "desc": "Aplicar conceitos de computação de borda para filtragem de sinais e dados estruturados." },
+    { "id": 6, "titulo": "Gráficos & Alertas", "desc": "Desenvolver visualização analítica através de gráficos de linha e alertas visuais de emergência." },
+    { "id": 7, "titulo": "APIs Espaciais", "desc": "Integrar APIs e geoprocessamento relacionados ao contexto espacial e ambiental do resgate." },
+    { "id": 8, "titulo": "Arquitetura Premium", "desc": "Aplicar rigorosamente boas práticas de arquitetura de software e desenvolvimento front-end." }
+  ],
+  "economiaEspacial": {
+    "contexto": "O projeto estabelece uma ponte direta com os conceitos da Nova Economia Espacial ao aproximar as diretrizes de Engenharia de Software das tecnologias geoespaciais e de infraestrutura distribuída utilizadas em sistemas aeroespaciais modernos de monitoramento e controle operacional.",
+    "pilares": [
+      "Telemetria Avançada",
+      "Monitoramento Remoto",
+      "Comunicação Distribuída",
+      "Integração de Dados de Nuvem",
+      "Conectividade em Sistemas Inteligentes"
+    ]
+  }
+}

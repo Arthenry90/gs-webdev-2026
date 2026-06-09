@@ -11,7 +11,7 @@ export default function NavBar() {
           </Link>
         </div>
 
-        <div className="hidden md:flex items-center gap-8 text-sm font-medium">
+        <div className="font-turret font-black hidden md:flex items-center gap-8 text-sm font-medium">
           <Link to="/problema" className="hover:text-[#00B4D8] transition-colors tracking-wide">
             Problema
           </Link>

@@ -1,0 +1,12 @@
+{
+  "beneficios": [
+    { "id": 1, "titulo": "Monitoramento Real-Time", "desc": "Monitoramento operacional em tempo real de alertas críticos diretamente em áreas remotas." },
+    { "id": 2, "titulo": "Integração IoT End-to-End", "desc": "Conectividade direta e fluida entre dispositivos IoT de borda e aplicações web modernas." },
+    { "id": 3, "titulo": "Visualização Inteligente", "desc": "Visualização inteligente e intuitiva de dados complexos de telemetria para equipes de solo." },
+    { "id": 4, "titulo": "Agilidade no Resgate", "desc": "Com o Monitoramento, e a vizualização inteligente, o tempo de resgate será menor" },
+    { "id": 5, "titulo": "Corte de Custos", "desc": "Menos tempo procurando, menos dinheiro gasto, com o OrbitBird, estimamos, um corte de 60% nos custos para uma operação envolvendo helicópteros." },
+    { "id": 6, "titulo": "Menos Fatalidades", "desc": "Com a facilidade de solicitar o resgate, temos a localização da pessoa em questão de segundos, desta maneira não é necessário um terceiro perceber o desaparecimento e solicitar auxilio para as autoridades." }
+    
+  ],
+  "consideracoesFinais": "O OrbitBird Rescue System busca demonstrar a integração entre Engenharia de Software, IoT e monitoramento inteligente por meio de uma plataforma moderna e funcional. A solução aplica conceitos de telemetria, Edge Computing e visualização de dados em tempo real, alinhando-se aos princípios da Nova Economia Espacial e às propostas tecnológicas abordadas na Global Solution 2026 da FIAP."
+}
